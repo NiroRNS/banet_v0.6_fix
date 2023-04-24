@@ -6,7 +6,6 @@ __all__ = ['filter_files', 'ls', 'hdf_attr_check', 'dict2json', 'monthlen', 'InO
 import numpy as np
 import json
 from pathlib import Path
-from nbdev.imports import test_eq
 
 # Cell
 def filter_files(files, include=[], exclude=[]):
